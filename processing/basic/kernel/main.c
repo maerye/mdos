@@ -20,6 +20,15 @@
 PUBLIC int kernel_main()
 {
 	disp_str("-----\"kernel_main\" begins-----\n");
+    clearscreen();
+    disp_str("--------------------------------------------------------")
+    disp_str("  --        --    -- -- --        -- --        -- --    ")
+    disp_str("  -- --  -- --    --      --    --     --    --         ")
+    disp_str("  --   --   --    --       --  --       --     -- --    ")
+    disp_str("  --        --    --      --    --     --          --   ")
+    disp_str("  --        --    -- -- --        -- --       -- --     ")
+    disp_str("--------------------------------------------------------")
+ 
 
 	TASK*		p_task		= task_table;
 	PROCESS*	p_proc		= proc_table;
